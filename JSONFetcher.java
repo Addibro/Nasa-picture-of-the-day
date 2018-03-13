@@ -34,7 +34,7 @@ public class JSONFetcher {
             for (String line : reader.lines().collect(Collectors.toList())) {
                 json.append(line);
             }
-
+            reader.close();
         } catch (IOException ex) {
             System.out.println(ex.getMessage());
         }
