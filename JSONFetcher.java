@@ -23,7 +23,6 @@ public class JSONFetcher {
             } else {
                 url = new URL(BASE_URL + "?" + API_KEY + "&" + query);
             }
-            System.out.println(url.toString());
             // check http
             if (!isHttpOk(url)) {
                 // return empty string
