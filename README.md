@@ -1,8 +1,8 @@
 # Nasa-picture-of-the-day
 
-# get the picture of the day from Nasa
+## get the picture of the day from Nasa
 
-# Examples
+## Examples
 
 `./run.sh`
 
