@@ -1,3 +1,5 @@
+package src;
+
 import org.json.*;
 
 public class JSONParser {

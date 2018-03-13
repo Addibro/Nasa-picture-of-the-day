@@ -1,3 +1,5 @@
+package src;
+
 public class ResponseObject {
     private String title;
     private String copyright;

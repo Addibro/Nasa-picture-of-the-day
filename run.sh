@@ -8,11 +8,11 @@ then
     PATHSEP=";"
 fi
 
-javac -cp .${PATHSEP}lib/java-json.jar Main.java
+javac -cp .${PATHSEP}lib/java-json.jar src/Main.java
 if [ $# -eq 1 ];
 then
-    java -cp .${PATHSEP}lib/java-json.jar Main $1
+    java -cp .${PATHSEP}lib/java-json.jar src/Main $1
 elif [ $# == 0 ];
 then
-    java -cp .${PATHSEP}lib/java-json.jar Main
+    java -cp .${PATHSEP}lib/java-json.jar src/Main
 fi
