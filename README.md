@@ -1,4 +1,4 @@
-# Nasa-picture-of-the-day :milky-way:
+# Nasa-picture-of-the-day :milky_way:
 
 ## get the picture of the day from Nasa
 
