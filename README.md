@@ -1,7 +1,5 @@
 # Nasa-picture-of-the-day :milky_way:
 
-## get the picture of the day from Nasa
-
 ## Examples
 
 `./run.sh`
